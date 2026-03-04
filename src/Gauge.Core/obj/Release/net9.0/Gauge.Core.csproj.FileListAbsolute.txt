@@ -9,3 +9,4 @@ C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Release\net9.
 C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Release\net9.0\refint\Gauge.Core.dll
 C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Release\net9.0\Gauge.Core.pdb
 C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Release\net9.0\ref\Gauge.Core.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Release\net9.0\Gauge.Core.sourcelink.json

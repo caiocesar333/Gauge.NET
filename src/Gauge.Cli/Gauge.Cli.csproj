@@ -21,12 +21,26 @@
 		<PackAsTool>true</PackAsTool>
 		<ToolCommandName>gauge</ToolCommandName>
 
+		<!-- Package identity -->
 		<PackageId>gauge</PackageId>
+		<Version>0.2.0-alpha.1</Version>
 
-		<Version>0.1.1</Version>
-		
-		<Authors>Gauge.NET</Authors>
-		<Description>Gauge.NET CLI - AI Agent Test Harness for .NET</Description>
+		<!-- OSS metadata -->
+		<Authors>Caio Cesar</Authors>
+		<Company></Company>
+		<Description>Gauge.NET CLI - AI Agent Test Harness for .NET (tool-call validation, cross-step rules, CI reports).</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/caiocesar333/Gauge.NET</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/caiocesar333/Gauge.NET</PackageProjectUrl>
+		<PackageTags>dotnet;ai;agents;testing;ci;junit;validation;jsonschema</PackageTags>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 </Project>

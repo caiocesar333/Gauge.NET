@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\caio.conceicao\\Desktop\\Repos\\Gauge.NET\\src\\Gauge.Cli\\Gauge.Cli.csproj": {
-      "version": "0.1.1",
+      "version": "0.2.0-alpha.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\caio.conceicao\\Desktop\\Repos\\Gauge.NET\\src\\Gauge.Cli\\Gauge.Cli.csproj",
         "projectName": "gauge",

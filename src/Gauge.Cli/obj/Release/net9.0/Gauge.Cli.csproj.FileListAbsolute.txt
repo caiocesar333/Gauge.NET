@@ -38,3 +38,4 @@ C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\obj\Release\net9.0
 C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\obj\Release\net9.0\Gauge.Cli.pdb
 C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\obj\Release\net9.0\Gauge.Cli.genruntimeconfig.cache
 C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\obj\Release\net9.0\ref\Gauge.Cli.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\obj\Release\net9.0\Gauge.Cli.sourcelink.json

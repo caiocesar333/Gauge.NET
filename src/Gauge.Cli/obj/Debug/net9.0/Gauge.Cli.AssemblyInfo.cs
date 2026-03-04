@@ -11,14 +11,16 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Gauge.NET")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Caio Cesar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Gauge.NET CLI - AI Agent Test Harness for .NET")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.1+ceaa8e9e9832feafa5d8f6d02d6c9504c83b6c11")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Gauge.NET CLI - AI Agent Test Harness for .NET (tool-call validation, cross-step " +
+    "rules, CI reports).")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.2.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.2.0-alpha.1+9527db5d0609e7a77f69daff717088f00ffceec8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gauge.Cli")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gauge.Cli")]
-[assembly: System.Reflection.AssemblyVersionAttribute("0.1.1.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("0.2.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/caiocesar333/Gauge.NET")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

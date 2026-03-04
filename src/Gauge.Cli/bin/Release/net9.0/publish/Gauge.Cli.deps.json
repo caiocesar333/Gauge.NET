@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "Gauge.Cli/0.1.1": {
+      "Gauge.Cli/0.2.0-alpha.1": {
         "dependencies": {
           "Gauge.Core": "1.0.0",
           "Gauge.Tools": "1.0.0",
@@ -140,7 +140,7 @@
     }
   },
   "libraries": {
-    "Gauge.Cli/0.1.1": {
+    "Gauge.Cli/0.2.0-alpha.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

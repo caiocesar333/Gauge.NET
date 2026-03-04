@@ -13,3 +13,4 @@ C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Release\ne
 C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Release\net9.0\refint\Gauge.Tracing.dll
 C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Release\net9.0\Gauge.Tracing.pdb
 C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Release\net9.0\ref\Gauge.Tracing.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Release\net9.0\Gauge.Tracing.sourcelink.json
