@@ -63,14 +63,14 @@ jobs:
             --out "${BASELINE_FILE}"
 
       - name: Suite baseline compare (junit + delta)
-        run: |
-          dotnet gauge baseline suite compare "${BASELINE_FILE}" \
-            --path "${TRACE_DIR}" \
-            --glob "${{ github.event.inputs.glob || '**/*.json' }}" \
-            --contracts "${CONTRACTS_FILE}" \
+       run: |
+         dotnet run --project ./src/Gauge.Cli -- baseline suite compare "./baseline.suite.json" \
+            --path "./traces" \
+            --glob "**/*.json" \
+            --contracts "./contracts.json" \
             --report junit \
-            --out "${RESULTS_JUNIT}" \
-            --delta-out "${DELTA_JSON}"
+            --out "./results.junit.xml" \
+            --delta-out "./delta.json"
 
       # Optional: also export full JSON report of the current run
       - name: Export JSON report (optional)
