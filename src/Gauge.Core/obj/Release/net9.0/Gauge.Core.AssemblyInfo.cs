@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gauge.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db053bb05a6ee2eeaceb0e234ddb91224c758144")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6afeeec2e3097ec78c0dbc26393ce7b681b2856e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gauge.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gauge.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
