@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gauge.Tracing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+898a48f866947d08f02ecb75e7ed19a129dd934b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06505e31cab91b388c50124d07202a5041dfc1bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gauge.Tracing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gauge.Tracing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

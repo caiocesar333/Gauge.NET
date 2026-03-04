@@ -13,7 +13,7 @@
     <packageTypes>
       <packageType name="DotnetTool" />
     </packageTypes>
-    <repository type="git" url="https://github.com/caiocesar333/Gauge.NET" commit="898a48f866947d08f02ecb75e7ed19a129dd934b" />
+    <repository type="git" url="https://github.com/caiocesar333/Gauge.NET" commit="06505e31cab91b388c50124d07202a5041dfc1bc" />
   </metadata>
   <files>
     <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\obj\Release\net9.0\DotnetToolSettings.xml" target="tools\net9.0\any\DotnetToolSettings.xml" />
