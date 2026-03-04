@@ -2,13 +2,13 @@ name: Gauge.NET CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
     inputs:
       update_baseline:
-        description: "Update (recreate) suite baseline and commit manually afterwards"
+        description: "Recreate suite baseline (does NOT commit)"
         required: false
         default: "false"
       glob:
@@ -46,37 +46,33 @@ jobs:
       - name: Test
         run: dotnet test -c Release --no-build
 
-      - name: Restore local tools
-        run: dotnet tool restore
+      - name: Show CLI help (from source)
+        run: dotnet run --project ./src/Gauge.Cli -- --help
 
-      - name: Show gauge version
-        run: dotnet gauge --help
-
-      # Optional: recreate baseline (does NOT auto-commit, just produces a file)
+      # Optional: recreate baseline (does NOT auto-commit)
       - name: (Optional) Recreate suite baseline
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.update_baseline == 'true' }}
         run: |
-          dotnet gauge baseline suite create \
+          dotnet run --project ./src/Gauge.Cli -- baseline suite create \
             --path "${TRACE_DIR}" \
             --glob "${{ github.event.inputs.glob }}" \
             --contracts "${CONTRACTS_FILE}" \
             --out "${BASELINE_FILE}"
 
       - name: Suite baseline compare (junit + delta)
-       run: |
-         dotnet run --project ./src/Gauge.Cli -- baseline suite compare "./baseline.suite.json" \
-            --path "./traces" \
-            --glob "**/*.json" \
-            --contracts "./contracts.json" \
+        run: |
+          dotnet run --project ./src/Gauge.Cli -- baseline suite compare "${BASELINE_FILE}" \
+            --path "${TRACE_DIR}" \
+            --glob "${{ github.event.inputs.glob || '**/*.json' }}" \
+            --contracts "${CONTRACTS_FILE}" \
             --report junit \
-            --out "./results.junit.xml" \
-            --delta-out "./delta.json"
+            --out "${RESULTS_JUNIT}" \
+            --delta-out "${DELTA_JSON}"
 
-      # Optional: also export full JSON report of the current run
       - name: Export JSON report (optional)
         if: always()
         run: |
-          dotnet gauge validate \
+          dotnet run --project ./src/Gauge.Cli -- validate \
             --path "${TRACE_DIR}" \
             --glob "${{ github.event.inputs.glob || '**/*.json' }}" \
             --contracts "${CONTRACTS_FILE}" \
