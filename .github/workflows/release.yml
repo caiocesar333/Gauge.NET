@@ -26,6 +26,9 @@ jobs:
 
       - name: Test
         run: dotnet test -c Release --no-build
+      
+      - name: Clean artifacts
+        run: rm -rf ./artifacts
 
       - name: Pack (Gauge.Cli)
         run: dotnet pack ./src/Gauge.Cli -c Release -o ./artifacts
@@ -37,4 +40,4 @@ jobs:
           path: ./artifacts/*.nupkg
 
       - name: Publish to NuGet
-        run: dotnet nuget push "./artifacts/*.nupkg" --api-key "${{ secrets.NUGET_API_KEY }}" --source "https://api.nuget.org/v3/index.json" --skip-duplicate
+  	run: dotnet nuget push "./artifacts/GaugeNET.*.nupkg" --api-key "${{ secrets.NUGET_API_KEY }}" --source "https://api.nuget.org/v3/index.json" --skip-duplicate "https://api.nuget.org/v3/index.json" --skip-duplicate
