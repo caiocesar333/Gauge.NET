@@ -1,0 +1,6 @@
+[
+  {
+    "name": "search",
+    "argsJson": "{ \"query\": \"gauge.net\", \"topK\": 5 }"
+  }
+]

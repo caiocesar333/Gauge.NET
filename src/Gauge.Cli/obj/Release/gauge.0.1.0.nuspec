@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gauge</id>
+    <version>0.1.0</version>
+    <authors>Gauge.NET</authors>
+    <description>Gauge.NET CLI - AI Agent Test Harness for .NET</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" />
+  </metadata>
+  <files>
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\obj\Release\net9.0\DotnetToolSettings.xml" target="tools\net9.0\any\DotnetToolSettings.xml" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Cli.dll" target="tools\net9.0\any\Gauge.Cli.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Cli.deps.json" target="tools\net9.0\any\Gauge.Cli.deps.json" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Cli.runtimeconfig.json" target="tools\net9.0\any\Gauge.Cli.runtimeconfig.json" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Cli.pdb" target="tools\net9.0\any\Gauge.Cli.pdb" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Humanizer.dll" target="tools\net9.0\any\Humanizer.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Json.More.dll" target="tools\net9.0\any\Json.More.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\JsonPointer.Net.dll" target="tools\net9.0\any\JsonPointer.Net.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\JsonSchema.Net.dll" target="tools\net9.0\any\JsonSchema.Net.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\System.CommandLine.dll" target="tools\net9.0\any\System.CommandLine.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Core.dll" target="tools\net9.0\any\Gauge.Core.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Tools.dll" target="tools\net9.0\any\Gauge.Tools.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Tracing.dll" target="tools\net9.0\any\Gauge.Tracing.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Core.pdb" target="tools\net9.0\any\Gauge.Core.pdb" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Tools.pdb" target="tools\net9.0\any\Gauge.Tools.pdb" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\Gauge.Tracing.pdb" target="tools\net9.0\any\Gauge.Tracing.pdb" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\cs\System.CommandLine.resources.dll" target="tools\net9.0\any\cs\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\de\System.CommandLine.resources.dll" target="tools\net9.0\any\de\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\es\System.CommandLine.resources.dll" target="tools\net9.0\any\es\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\fr\System.CommandLine.resources.dll" target="tools\net9.0\any\fr\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\it\System.CommandLine.resources.dll" target="tools\net9.0\any\it\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\ja\System.CommandLine.resources.dll" target="tools\net9.0\any\ja\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\ko\System.CommandLine.resources.dll" target="tools\net9.0\any\ko\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\pl\System.CommandLine.resources.dll" target="tools\net9.0\any\pl\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\pt-BR\System.CommandLine.resources.dll" target="tools\net9.0\any\pt-BR\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\ru\System.CommandLine.resources.dll" target="tools\net9.0\any\ru\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\tr\System.CommandLine.resources.dll" target="tools\net9.0\any\tr\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\zh-Hans\System.CommandLine.resources.dll" target="tools\net9.0\any\zh-Hans\System.CommandLine.resources.dll" />
+    <file src="C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Cli\bin\Release\net9.0\publish\zh-Hant\System.CommandLine.resources.dll" target="tools\net9.0\any\zh-Hant\System.CommandLine.resources.dll" />
+  </files>
+</package>

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "search",
+    "version": "1.0.0",
+    "argsJsonSchema": "{ \"$schema\": \"https://json-schema.org/draft/2020-12/schema\", \"type\": \"object\", \"properties\": { \"query\": { \"type\": \"string\", \"minLength\": 1 }, \"topK\": { \"type\": \"integer\", \"minimum\": 1, \"maximum\": 20 } }, \"required\": [\"query\"], \"additionalProperties\": false }",
+    "outputJsonSchema": "{ \"$schema\": \"https://json-schema.org/draft/2020-12/schema\", \"type\": \"object\", \"properties\": { \"ids\": { \"type\": \"array\", \"items\": { \"type\": \"string\" }, \"minItems\": 1 } }, \"required\": [\"ids\"], \"additionalProperties\": true }"
+  },
+  {
+    "name": "get_details",
+    "version": "1.0.0",
+    "argsJsonSchema": "{ \"$schema\": \"https://json-schema.org/draft/2020-12/schema\", \"type\": \"object\", \"properties\": { \"id\": { \"type\": \"string\", \"minLength\": 1 } }, \"required\": [\"id\"], \"additionalProperties\": false }",
+    "outputJsonSchema": "{ \"$schema\": \"https://json-schema.org/draft/2020-12/schema\", \"type\": \"object\", \"properties\": { \"id\": { \"type\": \"string\" } }, \"required\": [\"id\"], \"additionalProperties\": true }"
+  }
+]

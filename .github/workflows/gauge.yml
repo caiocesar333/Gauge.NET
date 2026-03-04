@@ -1,0 +1,95 @@
+name: Gauge.NET CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      update_baseline:
+        description: "Update (recreate) suite baseline and commit manually afterwards"
+        required: false
+        default: "false"
+      glob:
+        description: "Trace glob pattern"
+        required: false
+        default: "**/*.json"
+
+jobs:
+  gauge:
+    runs-on: ubuntu-latest
+
+    env:
+      TRACE_DIR: traces
+      CONTRACTS_FILE: contracts.json
+      BASELINE_FILE: baseline.suite.json
+      RESULTS_JUNIT: results.junit.xml
+      DELTA_JSON: delta.json
+      RESULTS_JSON: results.json
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build -c Release --no-restore
+
+      - name: Test
+        run: dotnet test -c Release --no-build
+
+      - name: Restore local tools
+        run: dotnet tool restore
+
+      - name: Show gauge version
+        run: dotnet gauge --help
+
+      # Optional: recreate baseline (does NOT auto-commit, just produces a file)
+      - name: (Optional) Recreate suite baseline
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.update_baseline == 'true' }}
+        run: |
+          dotnet gauge baseline suite create \
+            --path "${TRACE_DIR}" \
+            --glob "${{ github.event.inputs.glob }}" \
+            --contracts "${CONTRACTS_FILE}" \
+            --out "${BASELINE_FILE}"
+
+      - name: Suite baseline compare (junit + delta)
+        run: |
+          dotnet gauge baseline suite compare "${BASELINE_FILE}" \
+            --path "${TRACE_DIR}" \
+            --glob "${{ github.event.inputs.glob || '**/*.json' }}" \
+            --contracts "${CONTRACTS_FILE}" \
+            --report junit \
+            --out "${RESULTS_JUNIT}" \
+            --delta-out "${DELTA_JSON}"
+
+      # Optional: also export full JSON report of the current run
+      - name: Export JSON report (optional)
+        if: always()
+        run: |
+          dotnet gauge validate \
+            --path "${TRACE_DIR}" \
+            --glob "${{ github.event.inputs.glob || '**/*.json' }}" \
+            --contracts "${CONTRACTS_FILE}" \
+            --format json \
+            --out "${RESULTS_JSON}" || true
+
+      - name: Upload artifacts (JUnit + Delta + JSON)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gauge-artifacts
+          path: |
+            ${{ env.RESULTS_JUNIT }}
+            ${{ env.DELTA_JSON }}
+            ${{ env.RESULTS_JSON }}
+          if-no-files-found: warn

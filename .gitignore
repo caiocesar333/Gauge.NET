@@ -1,0 +1,45 @@
+# Node / pacote
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build / artefatos
+dist/
+build/
+storybook-static/
+coverage/
+
+# Caches
+.vite/
+.storybook/cache/
+.eslintcache
+*.tsbuildinfo
+
+# Ambiente
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Tests (futuros)
+test-results/
+playwright-report/
+blob-report/
+cypress/videos/
+cypress/screenshots/
+
+# Outros comuns
+*.local
+*.log
+*.vs

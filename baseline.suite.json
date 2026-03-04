@@ -1,0 +1,37 @@
+{
+  "CreatedAt": "2026-02-24T01:31:57.323285-03:00",
+  "CaseCount": 3,
+  "FailedCount": 0,
+  "Cases": [
+    {
+      "Key": "tc-ctx-llm-001",
+      "Source": "t1.json",
+      "RunId": "run-0002",
+      "TestId": "tc-ctx-llm-001",
+      "IsValid": true,
+      "IssueCount": 0,
+      "IssueCodes": [],
+      "Issues": null
+    },
+    {
+      "Key": "tc-ctx-llm-001",
+      "Source": "t2.json",
+      "RunId": "run-0002",
+      "TestId": "tc-ctx-llm-001",
+      "IsValid": true,
+      "IssueCount": 0,
+      "IssueCodes": [],
+      "Issues": null
+    },
+    {
+      "Key": "tc-ctx-llm-001",
+      "Source": "t3.json",
+      "RunId": "run-0002",
+      "TestId": "tc-ctx-llm-001",
+      "IsValid": true,
+      "IssueCount": 0,
+      "IssueCodes": [],
+      "Issues": null
+    }
+  ]
+}

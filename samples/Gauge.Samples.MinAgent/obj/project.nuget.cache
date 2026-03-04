@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZNPxQHPS6zM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\caio.conceicao\\Desktop\\Repos\\Gauge.NET\\samples\\Gauge.Samples.MinAgent\\Gauge.Samples.MinAgent.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caio.conceicao\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\caio.conceicao\\.nuget\\packages\\json.more.net\\2.0.1.2\\json.more.net.2.0.1.2.nupkg.sha512",
+    "C:\\Users\\caio.conceicao\\.nuget\\packages\\jsonpointer.net\\5.0.0\\jsonpointer.net.5.0.0.nupkg.sha512",
+    "C:\\Users\\caio.conceicao\\.nuget\\packages\\jsonschema.net\\7.3.0\\jsonschema.net.7.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\bin\Debug\net9.0\Gauge.Core.deps.json
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\bin\Debug\net9.0\Gauge.Core.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\bin\Debug\net9.0\Gauge.Core.pdb
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Debug\net9.0\Gauge.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Debug\net9.0\Gauge.Core.AssemblyInfoInputs.cache
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Debug\net9.0\Gauge.Core.AssemblyInfo.cs
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Debug\net9.0\Gauge.Core.csproj.CoreCompileInputs.cache
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Debug\net9.0\Gauge.Core.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Debug\net9.0\refint\Gauge.Core.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Debug\net9.0\Gauge.Core.pdb
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Core\obj\Debug\net9.0\ref\Gauge.Core.dll

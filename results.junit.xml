@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite name="Gauge.NET" tests="3" failures="0" time="0,101">
+  <testcase classname="Gauge.NET" name="tc-ctx-llm-001" time="0,099">
+  </testcase>
+  <testcase classname="Gauge.NET" name="tc-ctx-llm-001" time="0,002">
+  </testcase>
+  <testcase classname="Gauge.NET" name="tc-ctx-llm-001" time="0,001">
+  </testcase>
+</testsuite>

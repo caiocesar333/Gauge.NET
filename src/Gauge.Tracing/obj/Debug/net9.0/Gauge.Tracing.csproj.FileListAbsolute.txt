@@ -1,0 +1,15 @@
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\bin\Debug\net9.0\Gauge.Tracing.deps.json
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\bin\Debug\net9.0\Gauge.Tracing.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\bin\Debug\net9.0\Gauge.Tracing.pdb
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\bin\Debug\net9.0\Gauge.Core.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\bin\Debug\net9.0\Gauge.Core.pdb
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\Gauge.Tracing.csproj.AssemblyReference.cache
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\Gauge.Tracing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\Gauge.Tracing.AssemblyInfoInputs.cache
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\Gauge.Tracing.AssemblyInfo.cs
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\Gauge.Tracing.csproj.CoreCompileInputs.cache
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\Gauge.Tr.3C5F8C82.Up2Date
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\Gauge.Tracing.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\refint\Gauge.Tracing.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\Gauge.Tracing.pdb
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tracing\obj\Debug\net9.0\ref\Gauge.Tracing.dll

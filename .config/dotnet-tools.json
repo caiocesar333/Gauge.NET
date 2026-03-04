@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "gauge": {
+      "version": "0.1.1",
+      "commands": [
+        "gauge"
+      ],
+      "rollForward": false
+    }
+  }
+}

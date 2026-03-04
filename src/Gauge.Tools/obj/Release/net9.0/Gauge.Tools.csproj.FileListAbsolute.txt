@@ -1,0 +1,17 @@
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\bin\Release\net9.0\Gauge.Tools.deps.json
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\bin\Release\net9.0\Gauge.Tools.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\bin\Release\net9.0\Gauge.Tools.pdb
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\bin\Release\net9.0\Gauge.Core.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\bin\Release\net9.0\Gauge.Tracing.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\bin\Release\net9.0\Gauge.Core.pdb
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\bin\Release\net9.0\Gauge.Tracing.pdb
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\Gauge.Tools.csproj.AssemblyReference.cache
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\Gauge.Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\Gauge.Tools.AssemblyInfoInputs.cache
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\Gauge.Tools.AssemblyInfo.cs
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\Gauge.Tools.csproj.CoreCompileInputs.cache
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\Gauge.To.320DA164.Up2Date
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\Gauge.Tools.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\refint\Gauge.Tools.dll
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\Gauge.Tools.pdb
+C:\Users\caio.conceicao\Desktop\Repos\Gauge.NET\src\Gauge.Tools\obj\Release\net9.0\ref\Gauge.Tools.dll

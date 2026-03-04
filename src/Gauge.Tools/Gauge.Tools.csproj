@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="JsonSchema.Net" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <ProjectReference Include="..\Gauge.Core\Gauge.Core.csproj" />
+    <ProjectReference Include="..\Gauge.Tracing\Gauge.Tracing.csproj" />
+  </ItemGroup>
+
+</Project>

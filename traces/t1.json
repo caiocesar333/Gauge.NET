@@ -1,0 +1,63 @@
+{
+  "RunId": "run-0002",
+  "TestId": "tc-ctx-llm-001",
+  "StartedAt": "2026-02-22T00:27:56.1054402-03:00",
+  "CompletedAt": "2026-02-22T00:27:57.1054402-03:00",
+  "Metadata": {
+    "Model": "gpt-x",
+    "Temperature": 0.2,
+    "MaxTokens": null,
+    "PromptHash": "prompt_v1",
+    "AgentVersion": null
+  },
+  "Steps": [
+    {
+      "Kind": "llm_call",
+      "At": "2026-02-22T00:27:56.1054402-03:00",
+      "Payload": {
+        "Prompt": "You are an agent. Decide which tool to call.",
+        "Response": "Calling search with query=Gauge.NET",
+        "Model": "gpt-x",
+        "Temperature": 0.2,
+        "PromptTokens": 20,
+        "CompletionTokens": 10,
+        "TotalTokens": 30,
+        "LatencyMs": 120
+      }
+    },
+    {
+      "Kind": "tool_call",
+      "At": "2026-02-22T00:27:56.3054402-03:00",
+      "Payload": {
+        "Call": {
+          "Name": "search",
+          "ArgsJson": "{ \u0022query\u0022:\u0022Gauge.NET\u0022, \u0022topK\u0022: 5 }",
+          "OutputJson": "{ \u0022ids\u0022: [\u0022A1\u0022,\u0022B2\u0022] }",
+          "StartedAt": "2026-02-22T00:27:56.3054402-03:00",
+          "CompletedAt": "2026-02-22T00:27:56.4554402-03:00",
+          "Status": "ok"
+        }
+      }
+    },
+    {
+      "Kind": "tool_call",
+      "At": "2026-02-22T00:27:56.5054402-03:00",
+      "Payload": {
+        "Call": {
+          "Name": "get_details",
+          "ArgsJson": "{ \u0022id\u0022:\u0022A1\u0022 }",
+          "OutputJson": "{ \u0022id\u0022:\u0022A1\u0022, \u0022name\u0022:\u0022Gauge.NET\u0022 }",
+          "StartedAt": "2026-02-22T00:27:56.5054402-03:00",
+          "CompletedAt": "2026-02-22T00:27:56.6254402-03:00",
+          "Status": "ok"
+        }
+      }
+    }
+  ],
+  "Context": {
+    "UserInput": "Find ids for Gauge.NET and then fetch details for A1.",
+    "Variables": {
+      "keyword": "Gauge.NET"
+    }
+  }
+}
