@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("Gauge.NET CLI - AI Agent Test Harness for .NET (tool-call validation, cross-step " +
     "rules, CI reports)."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.2.0-alpha.1+db053bb05a6ee2eeaceb0e234ddb91224c758144")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.2.0-alpha.1+898a48f866947d08f02ecb75e7ed19a129dd934b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gauge.Cli")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gauge.Cli")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.2.0.0")]
