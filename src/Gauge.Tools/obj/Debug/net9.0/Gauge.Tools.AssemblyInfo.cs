@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gauge.Tools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9527db5d0609e7a77f69daff717088f00ffceec8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86e3b2c444fba121e0eec55338994e3fa218967c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gauge.Tools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gauge.Tools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

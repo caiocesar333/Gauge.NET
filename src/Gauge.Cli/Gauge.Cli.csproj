@@ -22,9 +22,9 @@
 		<ToolCommandName>gauge</ToolCommandName>
 
 		<!-- Package identity -->
-		<PackageId>gauge</PackageId>
-		<Version>0.2.0-alpha.1</Version>
-
+		<PackageId>GaugeNET</PackageId>
+		<Version>0.2.0-alpha.2</Version>
+		
 		<!-- OSS metadata -->
 		<Authors>Caio Cesar</Authors>
 		<Company></Company>
