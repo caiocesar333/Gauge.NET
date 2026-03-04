@@ -1,4 +1,3 @@
-## 1) README.md (cole na raiz do repo)
 
 ````md
 # Gauge.NET
@@ -145,55 +144,4 @@ MIT. See `LICENSE`.
 * GitHub: [https://github.com/caiocesar333/Gauge.NET](https://github.com/caiocesar333/Gauge.NET)
 * Issues: [https://github.com/caiocesar333/Gauge.NET/issues](https://github.com/caiocesar333/Gauge.NET/issues)
 
-````
-
----
-
-## 2) release workflow: `.github/workflows/release.yml`
-
-Esse workflow publica **o tool `gauge` no NuGet** quando você criar uma tag `vX.Y.Z` (ex.: `v0.2.0-alpha.1`). Ele também faz upload do `.nupkg` como artifact.
-
-> Pré-requisito: `NUGET_API_KEY` em **GitHub Secrets**.
-
-```yaml
-name: Release (NuGet)
-
-on:
-  push:
-    tags:
-      - "v*"
-
-jobs:
-  publish:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: "9.0.x"
-
-      - name: Restore
-        run: dotnet restore
-
-      - name: Build
-        run: dotnet build -c Release --no-restore
-
-      - name: Test
-        run: dotnet test -c Release --no-build
-
-      - name: Pack (Gauge.Cli)
-        run: dotnet pack ./src/Gauge.Cli -c Release -o ./artifacts
-
-      - name: Upload nupkg artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: nupkg
-          path: ./artifacts/*.nupkg
-
-      - name: Publish to NuGet
-        run: dotnet nuget push "./artifacts/*.nupkg" --api-key "${{ secrets.NUGET_API_KEY }}" --source "https://api.nuget.org/v3/index.json" --skip-duplicate
 ````
