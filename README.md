@@ -1,4 +1,3 @@
-## 1) README.md (cole na raiz do repo)
 
 ````md
 # Gauge.NET
