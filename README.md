@@ -1,6 +1,7 @@
 
-````md
+
 # Gauge.NET
+<img width="2762" height="1331" alt="Gauge NET" src="https://github.com/user-attachments/assets/7209e6d0-c2b0-4c11-ac4b-ad90be01fe25" />
 
 Gauge.NET is a .NET AI Agent Test Harness focused on **tool-call validation**, **cross-step correctness**, and **CI-ready evaluation** for agent traces.
 
@@ -18,9 +19,8 @@ It validates:
 ## Install
 
 ### Global tool (recommended)
-```bash
 dotnet tool install -g GaugeNET
-````
+
 
 ### Local tool (recommended for CI)
 
