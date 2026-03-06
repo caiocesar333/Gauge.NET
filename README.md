@@ -19,7 +19,7 @@ It validates:
 
 ### Global tool (recommended)
 ```bash
-dotnet tool install -g gauge
+dotnet tool install -g GaugeNET
 ````
 
 ### Local tool (recommended for CI)
